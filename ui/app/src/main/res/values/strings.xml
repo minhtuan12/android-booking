@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">finale</string>
+    <string name="web_client_id">591854867771-vbvr2upbes20klb4oo0fuji8t5g61tre.apps.googleusercontent.com</string>
+    <string name="api_url">http://192.168.146.225:3001</string>
+    <string name="token"></string>
+</resources>

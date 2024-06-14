@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mHome"
+        android:icon="@drawable/ic_config"
+        android:title="Calendar" />
+    <item
+        android:id="@+id/mMyGroups"
+        android:icon="@drawable/ic_group"
+        android:title="My groups" />
+    <item
+        android:id="@+id/mGroups"
+        android:icon="@drawable/ic_groups"
+        android:title="Groups" />
+    <item
+        android:id="@+id/mYou"
+        android:icon="@drawable/ic_you"
+        android:title="You" />
+</menu>

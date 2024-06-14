@@ -1,0 +1,49 @@
+{
+    "name": "expressjs-core",
+    "version": "1.0.0",
+    "description": "ExpressJS Core is a basic source code, using Express FrameWork",
+    "main": "src/index.js",
+    "scripts": {
+        "seed": "babel-node src/seeders/index.js",
+        "start": "nodemon --exec babel-node src/index.js",
+        "build": "rm -rf build && babel src --out-dir build --copy-files"
+    },
+    "author": "Harry Collins",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/runtime": "^7.22.15",
+        "bcrypt": "^5.1.1",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "ejs": "^3.1.9",
+        "express": "^4.18.2",
+        "express-rate-limit": "^6.11.1",
+        "google-auth-library": "^9.0.0",
+        "helmet": "^7.0.0",
+        "joi": "^17.10.1",
+        "jsonwebtoken": "^9.0.2",
+        "lodash": "^4.17.21",
+        "method-override": "^3.0.0",
+        "mime-types": "^2.1.35",
+        "moment": "^2.29.4",
+        "mongoose": "^7.5.2",
+        "multer": "^1.4.5-lts.1",
+        "node-cache": "^5.1.2",
+        "node-cron": "^3.0.2",
+        "nodemailer": "^6.9.5",
+        "short-uuid": "^4.2.2",
+        "winston": "^3.10.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.22.15",
+        "@babel/core": "^7.22.17",
+        "@babel/node": "^7.22.15",
+        "@babel/plugin-transform-runtime": "^7.22.15",
+        "@babel/preset-env": "^7.22.15",
+        "@faker-js/faker": "^8.0.2",
+        "axios": "^1.5.0",
+        "babel-plugin-module-resolver": "^5.0.0",
+        "nodemon": "^3.0.1"
+    }
+}

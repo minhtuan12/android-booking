@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomCalendarTheme" parent="Theme.AppCompat.Light">
+        <!-- Thay đổi màu chữ -->
+        <item name="android:textColor">@color/black</item>
+        <!-- Thay đổi màu nền -->
+        <item name="android:background">@color/white</item>
+    </style>
+</resources>
